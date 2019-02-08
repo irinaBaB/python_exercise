@@ -1,6 +1,6 @@
 import unittest
 
-from exercises.multiples import *
+from multiples import *
 
 
 
