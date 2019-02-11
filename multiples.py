@@ -1,3 +1,4 @@
+import array as arr
 
 def sum_elements(limit):
     acum = 0
@@ -18,10 +19,10 @@ def good(i):
 def even_elements_mult(i):
     if i == 0:
         return False
-    for num in range(i):
+    for num in list(i):
         #for i in range (1,num):
         if num % 2 == 0:
-            result = num * num
+            result = i * num
     return result
 
 
