@@ -15,6 +15,16 @@ def good(i):
     return by_3 or by_5
 
 
+def even_elements_mult(i,b):
+    if i ==0:
+        return False
+    for num in range (i,b):
+        for i in range (1,num):
+            if num % i == 0:
+                result = i*b
+        return result
+
+
 # Task2:
 # for all numbers below 10 (excluding 0)
 # result of multiplication of all even numbers is 384=2*4*6*8
