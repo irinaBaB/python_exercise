@@ -21,8 +21,8 @@ def even_elements_mult(i):
         return False
     for num in list(i):
         #for i in range (1,num):
-        if num % 2 == 0:
-            result = i * num
+        if num % 2 == 0 and num > 0:
+            result = num * num
     return result
 
 
