@@ -19,10 +19,10 @@ def good(i):
 def even_elements_mult(i):
     if i == 0:
         return False
-    for num in list(i):
-        #for i in range (1,num):
+    for num in i:
         if num % 2 == 0 and num > 0:
-            result = num * num
+            print (num)
+        result = num * num
     return result
 
 
