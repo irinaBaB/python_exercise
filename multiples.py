@@ -15,14 +15,14 @@ def good(i):
     return by_3 or by_5
 
 
-def even_elements_mult(i,b):
-    if i ==0:
+def even_elements_mult(i):
+    if i == 0:
         return False
-    for num in range (i,b):
-        for i in range (1,num):
-            if num % i == 0:
-                result = i*b
-        return result
+    for num in range(i):
+        #for i in range (1,num):
+        if num % 2 == 0:
+            result = num * num
+    return result
 
 
 # Task2:
