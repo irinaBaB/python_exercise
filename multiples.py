@@ -17,12 +17,10 @@ def good(i):
 
 
 def even_elements_mult(i):
-    if i == 0:
-        return False
+    result = 1
     for num in i:
         if num % 2 == 0 and num > 0:
-            print (num)
-        result = num * num
+            result *= num
     return result
 
 
