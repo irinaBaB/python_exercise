@@ -1,3 +1,4 @@
+import array as arr
 
 def sum_elements(limit):
     acum = 0
@@ -13,6 +14,14 @@ def good(i):
     by_3 = (i % 3) == 0
     by_5 = (i % 5) == 0
     return by_3 or by_5
+
+
+def even_elements_mult(i):
+    result = 1
+    for num in i:
+        if num % 2 == 0 and num > 0:
+            result *= num
+    return result
 
 
 # Task2:
